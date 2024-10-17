@@ -12,10 +12,10 @@
 //   const add = (a, b) => a + b;
 // console.log(add(5, 4));
 // for of loop
-// const fruits = ['Apple', 'Banana', 'Mango', 'Orange'];
+const fruits = ['Apple', 'Banana', 'Mango', 'Orange'];
 
-// for (const fruit of fruits) {
-//   console.log(fruit.toUpperCase(fruit));
-// }
-// const square = num => num * num;
-// console.log(square(5));
+for (const fruit of fruits) {
+  console.log(fruit.toUpperCase(fruit));
+}
+const square = num => num * num;
+console.log(square(5));
